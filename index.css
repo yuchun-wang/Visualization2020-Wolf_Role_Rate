@@ -1,0 +1,145 @@
+/* html */
+.center_word{
+  font-weight: bold;
+  text-align : center;
+  color : #453246;
+}
+
+.word{
+  border: 5px solid #E3E4E0;
+  border-radius: 10px;
+  align : center;
+  width : 73.5%;
+  background-color : #E3E4E0;
+}
+
+.left_word{
+  font-size: 22.5px;
+  font-weight: bold;
+  text-align : left;
+  color : #453246;
+  width : 78%;
+}
+
+.left__word{
+  font-size: 15px;
+  font-weight: bold;
+  text-align : left;
+  color : #453246;
+  width : 75%;
+}
+
+.null{
+  background : #000000;
+  opacity : 0;
+}
+
+/* js */
+.svg{
+  background-color : #EAE6DF;
+  border-radius: 20px;
+}
+
+.tag{
+  position: absolute;
+  font-size : 15px;
+  font-weight: bold;
+  text-align : left;
+  color : #453246;
+  width: 81px;
+  height: 210px;
+}
+
+.tag_word{
+  font-size : 16px;
+  font-weight: bold;
+  text-align : left;
+  fill : #453246;
+}
+
+.player_tag_color{
+  height : 15px;
+  width : 15px;
+  fill : #7F706E;
+  stroke: #453246;
+}
+
+.side_tag_color{
+  height : 15px;
+  width : 15px;
+  fill : #B7A196;
+  stroke: #453246;
+}
+
+.role_tag_color{
+  height : 15px;
+  width : 15px;
+  fill : #F9EAE1;
+  stroke: #453246;
+}
+
+.tooltip {
+  position: absolute;
+  font-size : 15px;
+  font-family : times;
+  font-weight: bold;
+  text-align : left;
+  color : #453246;
+  background: #B0A99F;
+  width: 155px;
+  height: 85px;
+  padding: 10px;
+  border: 0px;
+  border-radius: 8px;
+  pointer-events: none;
+}
+
+.tooltip2 {
+  position: absolute;
+  font-size : 15px;
+  font-family : times;
+  font-weight: bold;
+  text-align : left;
+  color : #453246;
+  background: #B0A99F;
+  width: 185px;
+  height: 560px;
+  padding: 10px;
+  border: 0px;
+  border-radius: 8px;
+  pointer-events: none;
+}
+
+.node {
+  cursor: pointer;
+}
+
+.node:hover {
+  stroke: #453246;
+  stroke-width: 3px;
+}
+
+.label {
+  text-anchor: middle;
+  font-size : 18px;
+  font-weight: bold;
+  fill : #453246;
+  stroke: #F6F5F0;
+  stroke-width: 0.20px;
+}
+
+.label2 {
+  text-anchor: middle;
+  font-size : 15px;
+  font-weight: bold;
+  fill : #453246;
+  stroke: #F6F5F0;
+  stroke-width: 0.20px;
+}
+
+.label,
+.label2,
+.node--root,
+.node--leaf{
+  pointer-events: none;
+}

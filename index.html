@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Wolf Role Rate</title>
+    <link rel=stylesheet href="index.css">
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+  </head>
+
+  <body style="background-color:#F6F5F0">
+
+    <div class="center_word">
+        <h1><b>〔 凹嗚狼人殺 〕玩家角色機率<b></h1>
+        <h4><b>數據更新至：2020年4月14日<b></h4>
+    </div>
+
+    <div class="chart" align="center">
+        <svg class="circle" width="750" height="750"></svg>
+    </div>
+
+    <p class="center_word">資料來源：<a href="https://zh.m.wikiversity.org/zh-tw/與凹嗚狼人殺相關的統計與整理">維基學院</a></p>
+
+    <div align="center">
+        <div class="word" >
+        <h3 class="left_word">設計說明：</h3>
+        <p class="left__word">
+            以圓圈的大小表示場數的多寡，第一層代表該玩家所參與的總場數，第二層代表其正義或邪惡聯盟場數，最內層則代表擔任某角色之場數。<br><br>
+            當鼠標移至第一層及第二層圓圈時，有浮動方塊顯示該區域之勝場數及勝率，點即可放大該圓，查看其內層圓圈及更多詳細資訊。<br><br>
+            而點擊某玩家之代表圓圈，亦會在左側顯示該名玩家之全部數據資訊。
+        </p>
+        <h3 class="left_word">設計選擇：</h3>
+        <p class="left__word">
+            1.&emsp;使用圓圈來表示每筆資料大小，因為以此顯示場數多寡，可以快速比較出彼此的相對差異。<br>
+            2.&emsp;再將其中各圓圈進行分層，以表示此資料的樹狀結構。<br>
+        </p>
+        <h3 class="left_word">考量相關的經驗法則：</h3>
+        <p class="left__word">
+            1.&emsp;考量 Eyes beat memory<br>&emsp;&emsp;將同層級的資料至於同一平面上，讓人可直接藉由圓圈大小比較出多寡，不用依賴記憶去比較。<br><br>
+            2.&emsp;考量 Change blindness<br>&emsp;&emsp;為了讓人發現點擊圓圈會有細部分枝資訊的顯示，設計在點擊後，將該圓圈放大。
+        </p>
+        <div class="null">after</div>
+    </div>
+
+    <div class="null">after</div><div class="null">after</div><div class="null">after</div>
+
+    <script src="index.js"></script>
+
+  </body>
+
+</html>
